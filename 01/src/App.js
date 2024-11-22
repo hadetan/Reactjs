@@ -1,7 +1,15 @@
 import { useState } from 'react';
 import './App.css';
-import Note from './components/Note';
-import Parent from './components/Parent';
+import Note from './components/useState/Note';
+import Parent from './components/useState/Parent';
+import NameForm from './components/useState/NameForm';
+import EssayForm from './components/useState/EssayForm';
+import FlavoursForm from './components/useState/FlavoursForm';
+import UncontrolledForm from './components/useState/UncontrolledForm';
+import MyComponent from './components/useEffect/MyComponent';
+import FocusInput from './components/useEffect/FocusInput';
+import Timer from './components/useEffect/Timer';
+import StopWatch from './components/useEffect/StopWatch';
 
 function App() {
 	// const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -32,6 +40,14 @@ function App() {
 
 			{/* <Note /> */}
 			{/* <Parent /> */}
+			{/* <NameForm /> */}
+			{/* <EssayForm /> */}
+			{/* <FlavoursForm /> */}
+			{/* <UncontrolledForm /> */}
+			{/* <MyComponent /> */}
+			{/* <FocusInput /> */}
+			{/* <Timer /> */}
+			<StopWatch />
 		</div>
 	);
 }
